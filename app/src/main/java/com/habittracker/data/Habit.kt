@@ -37,6 +37,14 @@ data class Habit(
     @ColumnInfo(name = "target_unit")
     val targetUnit: String = "razy",
 
+    // czy przypomnienie wlaczone
+    @ColumnInfo(name = "reminder_enabled")
+    val reminderEnabled: Boolean = false,
+
+    // godzina przypomnienia jako minuty od polnocy (np. 480 = 8:00)
+    @ColumnInfo(name = "reminder_time")
+    val reminderTime: Int = 480,
+
     @ColumnInfo(name = "created_at")
     val createdAt: Long = System.currentTimeMillis(),
 
