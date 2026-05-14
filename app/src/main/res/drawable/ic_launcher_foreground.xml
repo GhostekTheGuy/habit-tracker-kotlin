@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glif Phosphor check-circle (fill) w ukladzie 256x256, przeskalowany
+         do strefy bezpiecznej adaptacyjnej ikony (ok. 60x60 dp, wysrodkowany). -->
+    <group
+        android:scaleX="0.234"
+        android:scaleY="0.234"
+        android:translateX="24"
+        android:translateY="24">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z" />
+    </group>
+</vector>
