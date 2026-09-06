@@ -137,3 +137,8 @@ uruchomiona na emulatorze (Android 14, API 34) i sprawdzona ręcznie:
 
 Projekt jest samodzielnym modułem aplikacji Android (`:app`). Plik `local.properties`
 (ze ścieżką do SDK) jest celowo pominięty w repozytorium i generowany lokalnie.
+
+## Zasoby i licencje
+
+- Font Inter Tight - Google Fonts, licencja SIL Open Font License 1.1.
+- Ikony Phosphor Icons - licencja MIT (SVG skonwertowane na Android vector drawables).
